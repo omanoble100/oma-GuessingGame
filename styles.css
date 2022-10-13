@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    background-color: rgba(5, 1, 1, 0.596);
+    background-color: rgb(255, 255, 255);
     margin: 10%;
     text-align: center;
     height: 400px;
@@ -32,12 +32,10 @@ body {
 .container h1 {
     letter-spacing: 4px;
     font-size: 45px;
-    color: rgb(247, 246, 250);
+    color: rgb(9, 0, 128);
 }
 
-.guess, .outline {
-    color: white;
-}
+
 input {
     width: 300px;
     outline: none;
@@ -62,7 +60,7 @@ input {
 }
 
 .try {
-    color: rgb(248, 248, 250);
+    color: rgb(9, 0, 128);
     font-weight: bold;
     letter-spacing: 1px ;
     word-spacing: 2px;
@@ -121,6 +119,10 @@ input[type=number] {
 
     .container h1 {
         font-size: 40px;
+    }
+
+    .outline, .guess {
+        font-size: 14px;
     }
     .container {
         padding-bottom: 80px;
