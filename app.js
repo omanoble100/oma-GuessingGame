@@ -25,7 +25,7 @@ submitBtn.onclick = () => {
    
     guess.innerHTML =`You have ${numberOfGuessing} guesses`
        
-    if(numberOfGuessing < 1 && userNumber != randomNumber){
+    if(numberOfGuessing === 0 && playing === true){
 
             guess.innerHTML =`You have no more guess`
             playing = false;
